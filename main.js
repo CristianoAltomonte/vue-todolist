@@ -1,11 +1,19 @@
 var app = new Vue({
     el: '#app',
     data: {
-        testo: [
+
+        todoList: [
             {
                 text: 'comprare il pane',
-                todo: '',
-
+                done: false,
+            },
+            {
+                text: 'comprare la pasta',
+                done: false,
+            },
+            {
+                text: 'comprare i pomodori',
+                done: false,
             }
         ]
     }
